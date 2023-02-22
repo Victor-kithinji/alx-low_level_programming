@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <main.h>
 
 /**
   * print_alphabet - Make the alphabet
   *
-  * Return: void
+  * Return: 0
   */
-void print_alphabet(void)
+int main()
 {
 	char c;
 
@@ -15,4 +16,5 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
+	return 0;
 }
