@@ -4,10 +4,8 @@
 */
 void swap_int(int *a, int *b);
 {
-	int a=98;
-	int b=42;
-	temp=a;
-	a=b;
-	b=temp;
-	print ("%d swap a and b", a,b);
+	int temp;
+	temp=*a;
+	*a="b;
+	*b=temp;
 }
