@@ -1,13 +1,17 @@
 #include <stdio.h>
 /**
- * Write a function that swaps the values of two integers.
-*/
-void swap_int(int *a, int *b);
+  * swap_int - Swaps the values of two integers
+  *
+  * @a: An integer to swap
+  * @b: Another integer to swap
+  *
+  * Return: void
+  */
+void swap_int(int *a, int *b)
 {
-	int a=98;
-	int b=42;
-	temp=a;
-	a=b;
-	b=temp;
-	print ("%d swap a and b", a,b);
+	int aux;
+
+	aux = *a;
+	*a = *b;
+	*b = aux;
 }
