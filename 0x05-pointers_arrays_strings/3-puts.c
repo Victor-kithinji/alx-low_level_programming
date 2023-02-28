@@ -1,16 +1,15 @@
 #include <stdio.h>
-
 /**
   * _puts - Prints a string
   * @str: The string to print
   *
   * Return: void
   */
-void print_rev(char *s)
+void _puts(char *str)
 {
-	for (; *s != '\0'; s++)
+	for (; *str != '\0'; str++)
 	{
-		putchar(*s);
+		putchar(*str);
 	}
 
 	putchar('\n');
