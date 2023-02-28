@@ -6,7 +6,7 @@
   *
   * Return: void
   */
-void _puts(char *str)
+void print_rev(char *s)
 {
 	for (; *str != '\0'; str++)
 	{
