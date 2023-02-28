@@ -1,20 +1,22 @@
-#include <stdio.h>
-#include "main.h"
+#include "holberton.h"
 
 /**
-  * print_alphabet - Make the alphabet
+  * main - Entry point
   *
-  * Return: 0
+  * Return: Always 0
   */
-int main(int argc, char *argv[])
+int main(void)
 {
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
-
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
 	_putchar('\n');
-	return 0;
+
+	return (0);
 }
