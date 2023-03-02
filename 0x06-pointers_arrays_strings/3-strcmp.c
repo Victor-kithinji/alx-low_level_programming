@@ -1,12 +1,14 @@
 #include <stdio.h>
-/**_strcmp: compares two strings
+/**
+ * _strcmp - Compare two strings
  * @s1: string
  * @s2: string
- * return: negative int if s1 < s2, 0 if matching, and positive int if s1 > s2
+ * Return: negative int if s1 < s2, 0 if matching, and positive int if s1 > s2
  */
+
 int _strcmp(char *s1, char *s2)
 {
-int i;
+	int i;
 
 	for (i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
 	{
@@ -15,3 +17,4 @@ int i;
 	}
 	return (0);
 }
+
