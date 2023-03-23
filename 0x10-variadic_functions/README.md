@@ -1,1 +1,1 @@
-introduction to varidiac functions
+Introduction to varidiac functions
